@@ -1,0 +1,706 @@
+@charset "utf-8";
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+/*reseta todas as configuracoes*/
+.logo   {
+  margin-top: 32px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+/*fontes*/
+cite{
+  color: #004698;
+ float: right;
+ margin-top: 0px;
+}
+.OBS{
+  color: #ffe81f;
+  margin: 16px 245px 0 0;
+}
+.fontes{
+  position: relative;
+  top: 80px;
+  float: left;
+}
+
+.fonte_personagen{
+  position: relative;
+  bottom: 120px;
+}
+
+.fonte_criacao{
+  margin-top: 14px;
+}
+
+/*fim das fontes*/
+
+.container img{
+  margin-top: 70px;
+}
+
+body{
+  background-color: #000000;
+}
+/*menu*/
+header {
+  background: url("../Imagens/fundo_header_footer.jpg");
+  width: 100%;
+  height: 163px;
+}
+nav{
+  float: right;
+  margin-top: 32px;
+}
+nav ul li{
+  text-align: right;
+  display: inline-block;
+}
+nav ul li a{
+  display: inline-block;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 20px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+nav ul li a:hover {
+  color: #ffe81f;
+}
+
+/* aqui acaba o menu*/
+
+.titulo {
+  color: #1f86ff;
+  text-align: center;
+
+  font-family: Archivo VF Beta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+
+  margin-top: 64px;
+}
+
+.titulo::after{
+content: '';
+  display: block;
+  width: 350px;
+  height: 2px;
+  background: #515151;
+  margin: 16px auto;
+}
+
+
+/*comeco das caixas*/
+.caixa{
+  width: 960px;
+  height: 500px;
+  margin: 128px auto;
+  background-color: #111111;
+  box-sizing: content-box;
+}
+
+.subtitulo{
+  text-align: center;
+  padding-top: 32px;
+ 
+  
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffe81f;
+
+}
+
+.foto_caixa{
+  margin: 64px 0 0 25px;
+}
+
+.caixa .texto{
+  color: #ffffff;
+  width: 525px;
+  height:  251px;
+  float: right;
+  margin: 16px 25px 0 0;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/*botao*/
+
+.botao{
+  position: relative;
+  left: 400px;
+  bottom: 14px;
+
+  padding: 24px 40px;
+  background-color: #1F86FF;
+  border-radius: 10px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.botao:hover{
+  background-color: #003879;
+}
+
+/* fim das caixas*/
+footer{
+  margin-top: 128px;
+  background-image: url("../Imagens/fundo_header_footer.jpg");
+  width: 100%;
+  height: 163px;
+}
+
+footer a img{
+  position: relative;
+  bottom: 25px;
+  float: right;
+  margin-left: 32px;
+}
+
+footer h4{
+  margin-top: 16px;
+  float: left;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffe81f;
+}
+
+footer p{
+  float: left;
+  color: #ffffff;
+  width: 410px;
+  margin-top: 45px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+
+/* fim do index*/
+
+/*comeco da saga */
+
+.titulo_das_paginas{
+  text-align: center;
+
+  margin-top: 64px;
+
+  font-family: "Archivo VF Beta";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+
+color: #ffe81f;
+}
+
+.titulo_das_paginas::after{
+  content: '';
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #515151;
+    margin: 16px auto;
+  }
+
+
+
+/* filmes*/
+.filme{
+  margin: 128px 0 64px 0;
+}
+.filme li{
+display: inline-block;
+margin-left: 100px;
+}
+
+/*tabela*/
+
+.tabela{
+
+  width: 552px;
+  height: 693px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border:  2px solid #ffe81f;
+
+}
+
+.tabela tr, td , th{
+border: 2px solid #000000;
+}
+
+.tabela th{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.tabela td, tr{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* fim da saga /*
+
+
+/* comeco página dos personagens*/
+
+/*imagens de fundo*/
+
+.fundo_dos_personagens{
+  background: url("../Imagens/fundo_personagens.png")  no-repeat center;
+
+  margin-top: 377px;
+
+  width: 100%;
+  height: 100%;
+ 
+
+}
+/*imagens de fundo*/
+
+/*texos dos lados */
+
+.titulo_lado_negro{
+  position: relative;
+  top: -251px;
+
+  margin-left: 30px;
+
+  text-align: center;
+
+  float: left;
+
+  font-family: Arial;     /*configuracao das letras*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffe81f;       /*configuracao das letras*/
+}
+
+.titulo_lado_resisencia{
+  position: relative;
+  top: -251px;
+
+  margin-right: 30px;
+  
+  text-align: center;
+
+  float: right;
+
+  font-family: Arial;         /*configuracao das letras*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffe81f;            /*configuracao das letras*/
+}
+
+
+.titulo_lado_negro::after{
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 16px 40px;
+}
+
+.titulo_lado_resisencia::after{
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 16px 40px;
+}
+
+/* fim dos titulos dos lados*/
+
+/*comeco dos nomes dos personagens e textos*/
+
+.bloco_de_texto_personagens{
+
+  position: relative;
+
+  top: -138px;
+
+  margin-top: 96px;
+
+  width: 960px;
+
+  height: 310px;
+
+}
+
+
+
+.personagens_do_lado_negro{
+
+  position: absolute;
+
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #FFE81F;
+}
+
+
+.personagens_do_lado_resistencia{
+
+  position: absolute;
+  left: 550px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #ffe81f;
+}
+/* fim dos nomes dos perosnagens*/
+
+/*começo dos textos dos personagens*/
+
+.texto-peronagens_do_lado_negro{
+  position: absolute;
+  top: 80px;
+  left: 60px;
+
+  width: 410px;
+  height: 260px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.texto_personagens_do_resistencia{
+  position: absolute;
+  top: 80px;
+  left: 580px;
+  
+
+  width: 388px;
+  height: 256px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #ffffff;
+
+}
+
+
+/* fim da pagina dos personagens*/
+
+/* comeco da pagina de historia*/
+
+.caixa_historia1{
+  margin: 128px  14px 0 0;
+  display: inline-block;
+  width: 471px;
+  height: 680px;
+
+  background-color: #111111;
+}
+.caixa_historia2{
+  margin-top: 128px;
+  float: right;
+  width: 471px;
+  height: 680px;
+
+  background-color: #111111;
+}
+
+.caixa_historia2 img{
+  margin-left: -280px;
+}
+
+.caixa_historia3{
+  display: inline-block;
+  margin-top: 340px;
+  width: 100%;
+  height: 400px;
+
+  background-color: #111111;
+}
+
+.caixa_historia1 h2, .caixa_historia2 h2, .caixa_historia3 h2{
+  text-align: center;
+  margin: 16px 0 32px 0;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #FFE81F;
+}
+
+.caixa_historia1 p, .caixa_historia2 p, .caixa_historia3 p {
+  margin: 0 20px 0 20px;
+  font-family:  "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #FFFFFF;
+}
+
+/* fim da pagina historia */
+
+/* comeco da pagina criacao*/
+
+.caixa_criacao{     /* primeira caixa com 128px de margin do topo*/
+  margin-top: 128px ;
+  background-color: #111111;
+  width: 540px;
+  height: 428px;
+}
+
+.caixa_criacao2{        /* caixa 2 e 3 foi modificada a margin top para 96 px */
+  margin: 96px 0;
+
+  background-color: #111111;
+
+  width: 540px;
+  height: 428px;
+}
+
+.titulo_criacao{
+  position: relative;
+  top: 16px;
+
+  text-align: center;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #FFE81F;
+}
+
+.titulo_criacao::after{    /* linha*/
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #c4c4c4;
+  margin: 16px auto;
+}
+
+.texto_criacao{
+  width: 490px;
+  height: 280px;
+
+  margin: 32px auto;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.imagem_criacao{
+  position: relative;
+  bottom: 220px;
+  float: right;
+}
+
+/* fim da pagina de criacao*/
+
+/*comeco da pagina de contato*/
+
+form{
+  margin-top: 128px;
+}
+
+label{
+  display:block;
+  margin: 64px 0 8px 0;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+color: #FFE81F;
+}
+
+#nome, #telefone, #email{
+  width: 540px;
+  height:  80px;
+
+  background: #FFFFFF;
+  border: 1px solid #FFE81F;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#mensagem{
+  width: 540px;
+  height: 200px;
+
+  background: #FFFFFF;
+  border: 1px solid #FFE81F;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+input, textarea{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.botao_formulario{
+  position: relative;
+  top: 92px;
+  right: 540px;
+  width: 193px;
+  height: 63px;
+
+  margin-bottom: 128px;
+
+  background: #1F86FF;
+  border-radius: 10px;
+}
+
+.botao_formulario:hover{
+  background-color: #004698;
+}
+
+.botao_formulario{
+  text-align: center;
+
+  text-transform: uppercase;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #FFFFFF;
+}
+
+/* fim do formulario */
+
+/*comeco dos dados*/
+
+.dados_do_site {
+margin-top: -800px;
+float: right;
+}
+
+.dados{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+color: #FFE81F;
+}
+
+.texto_dados1{
+ margin:  80px 0 0  60px ;
+  
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+.texto_dados2{
+  margin:  20px 0 0  60px ;
+   
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+ 
+  color: #FFFFFF;
+ }
+
+ .endereco{
+  margin-top: 70px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  
+  color: #FFE81F;
+ }
